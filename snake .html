@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Snake Game</title>
+    <link rel="stylesheet" href="./snake.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Snake Game</h1>
+        <div class="game-info">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="high-score">High Score: <span id="high-score">0</span></div>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <div class="controls">
+            <p>Use arrow keys or swipe to control the snake</p>
+        </div>
+    </div>
+    <script src="./snake.js"></script>
+</body>
+</html>
